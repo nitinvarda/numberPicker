@@ -71,7 +71,6 @@ const App = () => {
 
   }
   
-  console.log(values[selectedIndex])
   return (
     <SafeAreaView >
       <View style={{flexDirection:'row',justifyContent:'center',alignItems:'center',}}>
@@ -126,12 +125,7 @@ const App = () => {
           }}>
 
       </View>
-
       </View>
-      
-
-
-
       <View style={{flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
         <Text>Selected Value  </Text>
         <Text style={{color:'black',fontSize:30}}>{values[selectedIndex]}</Text>
