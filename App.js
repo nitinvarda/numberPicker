@@ -45,7 +45,7 @@ const App = () => {
     if(e.nativeEvent.contentOffset){
         x = e.nativeEvent.contentOffset.x;
     }
-    console.log(x)
+    
     let selectedIndexValue = Math.round(x / h);
 
     console.log(selectedIndexValue)
@@ -65,7 +65,6 @@ const App = () => {
           },
       },
     }
-    console.log(_e)
     test(_e)
 
 
